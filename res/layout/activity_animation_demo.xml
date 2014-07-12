@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <Button 
+        android:id="@+id/alphaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alpha淡入淡出效果"
+        />
+    <Button 
+        android:id="@+id/scaleId"
+        android:layout_below="@id/alphaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scale缩放效果"
+        />
+    <Button 
+        android:id="@+id/rotateId"
+        android:layout_below="@id/scaleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rotate旋转效果"
+        />
+    <Button 
+        android:id="@+id/translateId"
+        android:layout_below="@id/rotateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate移动效果"
+        />
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+        <ImageView 
+            android:id="@+id/imageViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/ic_launcher"
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>
