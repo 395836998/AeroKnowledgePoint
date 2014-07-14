@@ -1,4 +1,4 @@
-package com.zhanglian2010.animations;
+package com.zhanglian2010.ui;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,8 +13,6 @@ import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
-import com.zhanglian2010.R;
 
 public class LayoutAnimationDemoActivity extends ListActivity {
 

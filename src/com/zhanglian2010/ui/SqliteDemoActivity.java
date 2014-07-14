@@ -1,4 +1,4 @@
-package com.zhanglian2010.sqlite;
+package com.zhanglian2010.ui;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.zhanglian2010.R;
+import com.zhanglian2010.sqlite.DatabaseHelper;
 
 public class SqliteDemoActivity extends Activity {
 

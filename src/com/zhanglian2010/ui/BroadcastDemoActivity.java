@@ -1,4 +1,4 @@
-package com.zhanglian2010.broadcast;
+package com.zhanglian2010.ui;
 
 import android.app.Activity;
 import android.content.IntentFilter;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.zhanglian2010.R;
+import com.zhanglian2010.broadcast.SmsReceiver;
 
 public class BroadcastDemoActivity extends Activity {
 

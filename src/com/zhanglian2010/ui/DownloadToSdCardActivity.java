@@ -1,4 +1,4 @@
-package com.zhanglian2010.download;
+package com.zhanglian2010.ui;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -17,8 +17,6 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-
-import com.zhanglian2010.R;
 
 public class DownloadToSdCardActivity extends Activity {
 

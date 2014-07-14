@@ -1,4 +1,4 @@
-package com.zhanglian2010.animations;
+package com.zhanglian2010.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,8 +13,6 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import com.zhanglian2010.R;
 
 public class AnimationDemoActivity extends Activity {
 

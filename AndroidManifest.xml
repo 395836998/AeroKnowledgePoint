@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhanglian2010"
+    package="com.zhanglian2010.ui"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,33 +14,41 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.zhanglian2010.MainActivity"
+            android:name="com.zhanglian2010.ui.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.zhanglian2010.animations.AnimationDemoActivity"
+            android:name="com.zhanglian2010.ui.AnimationDemoActivity"
             android:label="@string/title_activity_animation" >
-            
         </activity>
         <activity
-            android:name="com.zhanglian2010.download.DownloadToSdCardActivity"
+            android:name="com.zhanglian2010.ui.DownloadToSdCardActivity"
             android:label="@string/title_activity_download_to_sd_card" >
         </activity>
         <activity
-            android:name="com.zhanglian2010.broadcast.BroadcastDemoActivity"
+            android:name="com.zhanglian2010.ui.BroadcastDemoActivity"
             android:label="@string/title_activity_broadcast" >
         </activity>
         <activity
-            android:name="com.zhanglian2010.service.ServiceActivity"
-            android:label="@string/title_activity_service" >
+            android:name="com.zhanglian2010.ui.SqliteDemoActivity"
+            android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.zhanglian2010.service.ServiceDemoActivity"
+            android:name="com.zhanglian2010.ui.ServiceDemoActivity"
             android:label="@string/title_activity_service_demo" >
         </activity>
         <activity
-            android:name="com.zhanglian2010.animations.LayoutAnimationDemoActivity"
+            android:name="com.zhanglian2010.ui.LayoutAnimationDemoActivity"
             android:label="@string/title_activity_layout_animation_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.AnimationListenerDemoActivity"
+            android:label="@string/title_activity_animation_listener_demo" >
+            
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.JsonDemoActivity"
+            android:label="@string/title_activity_json_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
