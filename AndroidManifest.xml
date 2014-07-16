@@ -44,13 +44,23 @@
         <activity
             android:name="com.zhanglian2010.ui.AnimationListenerDemoActivity"
             android:label="@string/title_activity_animation_listener_demo" >
-            
         </activity>
         <activity
             android:name="com.zhanglian2010.ui.JsonDemoActivity"
-            android:label="@string/title_activity_json_demo" >
+            android:label="@string/title_activity_json_demo" 
+            android:parentActivityName="com.zhanglian2010.ui.ActionBarDemoActivity">
+            
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.zhanglian2010.ui.ActionBarDemoActivity" />
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ActionBarDemoActivity"
+            android:label="@string/title_activity_action_bar_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

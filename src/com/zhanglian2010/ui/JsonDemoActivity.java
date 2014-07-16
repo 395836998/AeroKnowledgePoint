@@ -31,11 +31,14 @@ public class JsonDemoActivity extends Activity {
 		
 		view.setText(userList.get(0).getName() + userList.get(0).getPassporttype());
 		
+		
+		//与ActionBarDemoActiviy一起做了一个ActionBar返回上一步的例子
+		//开启actionbar中返回上一步的功能，前提是minifest文件中配置好了父activity
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.json_demo, menu);
 		return true;
 	}

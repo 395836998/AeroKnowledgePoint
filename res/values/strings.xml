@@ -12,5 +12,6 @@
     <string name="title_activity_layout_animation_demo">LayoutAnimationDemoActivity</string>
     <string name="title_activity_animation_listener_demo">AnimationListenerDemoActivity</string>
     <string name="title_activity_json_demo">JsonDemoActivity</string>
+    <string name="title_activity_action_bar_demo">ActionBarDemoActivity</string>
 
 </resources>
