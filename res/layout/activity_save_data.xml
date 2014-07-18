@@ -6,12 +6,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".JsonDemoActivity" >
+    tools:context=".SaveDataActivity" >
 
     <TextView
-        android:id="@+id/textId"
+        android:id="@+id/highId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="jsondemo..." />
+        android:text="@string/hello_world" />
 
 </RelativeLayout>

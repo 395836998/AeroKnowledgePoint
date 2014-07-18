@@ -63,11 +63,32 @@ public class DownloadToSdCardActivity extends Activity {
 			URL url = new URL(urlStr);
 			HttpURLConnection urlConn = (HttpURLConnection) url.openConnection();
 			InputStream inputStream = urlConn.getInputStream();
-			write2SDFromInput(path, fileName, inputStream);
+			if( isExternalStorageWritable() ){
+				write2SDFromInput(path, fileName, inputStream);
+			}
 			
 		}catch(Exception e){
 			e.printStackTrace();
 		}
+	}
+	
+	/* Checks if external storage is available for read and write */
+	private boolean isExternalStorageWritable() {
+	    String state = Environment.getExternalStorageState();
+	    if (Environment.MEDIA_MOUNTED.equals(state)) {
+	        return true;
+	    }
+	    return false;
+	}
+
+	/* Checks if external storage is available to at least read */
+	private boolean isExternalStorageReadable() {
+	    String state = Environment.getExternalStorageState();
+	    if (Environment.MEDIA_MOUNTED.equals(state) ||
+	        Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
+	        return true;
+	    }
+	    return false;
 	}
 
 	private void write2SDFromInput(String path, String fileName, InputStream input){

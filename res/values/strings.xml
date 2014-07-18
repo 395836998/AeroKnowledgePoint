@@ -13,5 +13,9 @@
     <string name="title_activity_animation_listener_demo">AnimationListenerDemoActivity</string>
     <string name="title_activity_json_demo">JsonDemoActivity</string>
     <string name="title_activity_action_bar_demo">ActionBarDemoActivity</string>
+    
+    <string name="saved_high_score">cn.zhanglian2010.ZeroKnowledgePoint.SAVED_HIGH_SCORE</string>
+    
+    <string name="title_activity_save_data">SaveDataActivity</string>
 
 </resources>
