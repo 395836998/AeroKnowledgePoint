@@ -7,7 +7,7 @@
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="19" />
-    
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -64,11 +64,15 @@
         <activity
             android:name="com.zhanglian2010.ui.FragmentDemoActivity"
             android:label="@string/title_activity_action_bar_demo" >
-            
         </activity>
         <activity
             android:name="com.zhanglian2010.ui.SaveDataActivity"
             android:label="@string/title_activity_save_data" >
+            
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ToAnotherAppActivity"
+            android:label="@string/title_activity_to_another_app" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
