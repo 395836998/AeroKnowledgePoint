@@ -18,5 +18,6 @@
     <string name="title_activity_to_another_app">ToAnotherAppActivity</string>
     <string name="title_activity_clipboard_from">ClipboardFromActivity</string>
     <string name="title_activity_clipboard_to">ClipboardToActivity</string>
+    <string name="title_activity_text_view_demo">TextViewDemoActivity</string>
 
 </resources>

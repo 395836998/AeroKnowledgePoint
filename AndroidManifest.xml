@@ -72,20 +72,24 @@
         <activity
             android:name="com.zhanglian2010.ui.ToAnotherAppActivity"
             android:label="@string/title_activity_to_another_app" >
-            
         </activity>
         <activity
             android:name="com.zhanglian2010.ui.ClipboardFromActivity"
             android:label="@string/title_activity_clipboard_from" >
+            
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ClipboardToActivity"
+            android:label="@string/title_activity_clipboard_to" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.TextViewDemoActivity"
+            android:label="@string/title_activity_text_view_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.zhanglian2010.ui.ClipboardToActivity"
-            android:label="@string/title_activity_clipboard_to" >
         </activity>
     </application>
 
