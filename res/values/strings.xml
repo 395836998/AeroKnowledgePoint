@@ -16,5 +16,7 @@
     <string name="saved_high_score">cn.zhanglian2010.ZeroKnowledgePoint.SAVED_HIGH_SCORE</string>
     <string name="title_activity_save_data">SaveDataActivity</string>
     <string name="title_activity_to_another_app">ToAnotherAppActivity</string>
+    <string name="title_activity_clipboard_from">ClipboardFromActivity</string>
+    <string name="title_activity_clipboard_to">ClipboardToActivity</string>
 
 </resources>
