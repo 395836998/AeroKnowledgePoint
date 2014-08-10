@@ -17,7 +17,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ShareActionProvider;
 
-public class ToAnotherAppActivity extends Activity {
+public class DataToOtherAppActivity extends Activity {
 
 	static final int PICK_CONTACT_REQUEST = 1;  // The request code
 	
@@ -132,7 +132,6 @@ public class ToAnotherAppActivity extends Activity {
 
 	    // Fetch and store ShareActionProvider
 	    mShareActionProvider = (ShareActionProvider) item.getActionProvider();
-	    
 	    
 	    //一旦获取到了mShareActionProvider后，在适当的时候创建intent并设置内容（文本或流数据），将其set给mShareActionProvider即可
 	    //之后ActionBar中的按钮被触发后，会自动将内容带到对应的分享app中

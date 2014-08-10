@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditTextDemoActivity" >
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" 
+        android:hint="输入内容"
+        />
+    
+    <Button 
+        android:id="@+id/qqButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加QQ表情"
+        />
+    
+	<EditText 
+	    android:id="@+id/editDigitsId"
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:digits="0123456789"
+	    android:hint="digits属性输入数字内容"
+	    />
+	<EditText 
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="number|textCapCharacters"
+	    android:hint="inputType属性输入数字内容"
+	    />
+	<EditText 
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textEmailAddress"
+	    android:hint="inputType属性输入Email内容"
+	    />
+	<EditText 
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:numeric="decimal|signed"
+	    android:hint="numberic属性输入有符号的浮点数"
+	    />
+	<Button 
+        android:id="@+id/confirmButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        />
+	
+</LinearLayout>

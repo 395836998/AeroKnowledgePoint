@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AutoTextDemoActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="智能提示输入框" />
+    <AutoCompleteTextView 
+        android:id="@+id/autoTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选智能提示输入框" />
+    <MultiAutoCompleteTextView 
+        android:id="@+id/multiAutoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

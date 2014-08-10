@@ -70,13 +70,12 @@
             android:label="@string/title_activity_save_data" >
         </activity>
         <activity
-            android:name="com.zhanglian2010.ui.ToAnotherAppActivity"
+            android:name="com.zhanglian2010.ui.DataToOtherAppActivity"
             android:label="@string/title_activity_to_another_app" >
         </activity>
         <activity
             android:name="com.zhanglian2010.ui.ClipboardFromActivity"
             android:label="@string/title_activity_clipboard_from" >
-            
         </activity>
         <activity
             android:name="com.zhanglian2010.ui.ClipboardToActivity"
@@ -85,6 +84,40 @@
         <activity
             android:name="com.zhanglian2010.ui.TextViewDemoActivity"
             android:label="@string/title_activity_text_view_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.DataFromOtherAppActivity"
+            android:label="@string/title_activity_data_from_other_app" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.EditTextDemoActivity"
+            android:label="@string/title_activity_edit_text_demo" >
+            
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.AutoTextDemoActivity"
+            android:label="@string/title_activity_auto_text_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

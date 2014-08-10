@@ -19,5 +19,8 @@
     <string name="title_activity_clipboard_from">ClipboardFromActivity</string>
     <string name="title_activity_clipboard_to">ClipboardToActivity</string>
     <string name="title_activity_text_view_demo">TextViewDemoActivity</string>
+    <string name="title_activity_data_from_other_app">DataFromOtherAppActivity</string>
+    <string name="title_activity_edit_text_demo">EditTextDemoActivity</string>
+    <string name="title_activity_auto_text_demo">AutoTextDemoActivity</string>
 
 </resources>
