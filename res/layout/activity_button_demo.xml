@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButtonDemoActivity" >
+
+    <Button
+        android:id="@+id/commonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通按钮" />
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:gravity="center"
+        android:text="图标按钮" />
+    
+    
+
+    <ToggleButton 
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="纵向排列"
+        android:textOff="横向排列"
+        android:checked="true"
+        />
+    
+    <LinearLayout
+        android:id="@+id/myToggleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/qq_002"
+            android:text="图标按钮2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:drawableTop="@drawable/qq_003"
+            android:text="图标按钮3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/qq_004"
+            android:text="图标按钮4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/qq_006"
+            android:drawableTop="@drawable/qq_005"
+            android:text="图标按钮5" />
+    </LinearLayout>
+
+</LinearLayout>

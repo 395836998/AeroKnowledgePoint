@@ -22,5 +22,9 @@
     <string name="title_activity_data_from_other_app">DataFromOtherAppActivity</string>
     <string name="title_activity_edit_text_demo">EditTextDemoActivity</string>
     <string name="title_activity_auto_text_demo">AutoTextDemoActivity</string>
+    <string name="title_activity_button_demo">ButtonDemoActivity</string>
+    <string name="title_activity_checkbox_demo">CheckboxDemoActivity</string>
+    <string name="title_activity_image_view_demo">ImageViewDemoActivity</string>
+    <string name="title_activity_image_view_cut">ImageViewCutActivity</string>
 
 </resources>

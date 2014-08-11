@@ -113,11 +113,26 @@
         <activity
             android:name="com.zhanglian2010.ui.EditTextDemoActivity"
             android:label="@string/title_activity_edit_text_demo" >
-            
         </activity>
         <activity
             android:name="com.zhanglian2010.ui.AutoTextDemoActivity"
             android:label="@string/title_activity_auto_text_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ButtonDemoActivity"
+            android:label="@string/title_activity_button_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.CheckboxDemoActivity"
+            android:label="@string/title_activity_checkbox_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ImageViewDemoActivity"
+            android:label="@string/title_activity_image_view_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ImageViewCutActivity"
+            android:label="@string/title_activity_image_view_cut" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
