@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DateTimePickerDemoActivity" >
+    
+    <Button
+        android:id="@+id/dateButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示Date对话框" />
+    <Button
+        android:id="@+id/timeButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示Time对话框" />
+    
+    <DatePicker 
+        android:id="@+id/datePick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TimePicker 
+        android:id="@+id/timePick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    
+    
+
+</LinearLayout>

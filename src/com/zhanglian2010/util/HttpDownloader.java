@@ -11,28 +11,15 @@ import java.net.URL;
 
 
 public class HttpDownloader {
-	private URL url = null;
 
-	/**
-	 * ���URL�����ļ���ǰ��������ļ����е��������ı�������ķ���ֵ�����ļ����е�����
-	 * 1.����һ��URL����
-	 * 2.ͨ��URL���󣬴���һ��HttpURLConnection����
-	 * 3.�õ�InputStram
-	 * 4.��InputStream���ж�ȡ���
-	 * @param urlStr
-	 * @return
-	 */
-	public String download(String urlStr) {
+	public static String download(String urlStr) {
 		StringBuffer sb = new StringBuffer();
 		String line = null;
 		BufferedReader buffer = null;
 		try {
-			// ����һ��URL����
-			url = new URL(urlStr);
-			// ����һ��Http����
+			URL url = new URL(urlStr);
 			HttpURLConnection urlConn = (HttpURLConnection) url
 					.openConnection();
-			// ʹ��IO����ȡ���
 			buffer = new BufferedReader(new InputStreamReader(urlConn
 					.getInputStream()));
 			while ((line = buffer.readLine()) != null) {
@@ -50,10 +37,7 @@ public class HttpDownloader {
 		return sb.toString();
 	}
 
-	/**
-	 * �ú�������� -1����������ļ����� 0����������ļ��ɹ� 1������ļ��Ѿ�����
-	 */
-	public int downFile(String urlStr, String path, String fileName) {
+	public static int downFile(String urlStr, String path, String fileName) {
 		InputStream inputStream = null;
 		try {
 			FileUtils fileUtils = new FileUtils();
@@ -80,16 +64,15 @@ public class HttpDownloader {
 	}
 
 	/**
-	 * ���URL�õ�������
 	 * 
 	 * @param urlStr
 	 * @return
 	 * @throws MalformedURLException
 	 * @throws IOException
 	 */
-	public InputStream getInputStreamFromUrl(String urlStr)
+	public static InputStream getInputStreamFromUrl(String urlStr)
 			throws MalformedURLException, IOException {
-		url = new URL(urlStr);
+		URL url = new URL(urlStr);
 		HttpURLConnection urlConn = (HttpURLConnection) url.openConnection();
 		InputStream inputStream = urlConn.getInputStream();
 		return inputStream;

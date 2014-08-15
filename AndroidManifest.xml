@@ -9,6 +9,7 @@
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -133,6 +134,26 @@
         <activity
             android:name="com.zhanglian2010.ui.ImageViewCutActivity"
             android:label="@string/title_activity_image_view_cut" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ImageViewRotateActivity"
+            android:label="@string/title_activity_image_view_rotate" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.DateTimePickerDemoActivity"
+            android:label="@string/title_activity_date_time_picker_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ProgressBarDemoActivity"
+            android:label="@string/title_activity_progress_bar_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ScrollViewDemoActivity"
+            android:label="@string/title_activity_scroll_view_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ScrollViewHorizontalActivity"
+            android:label="@string/title_activity_scroll_view_horizontal" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -26,5 +26,10 @@
     <string name="title_activity_checkbox_demo">CheckboxDemoActivity</string>
     <string name="title_activity_image_view_demo">ImageViewDemoActivity</string>
     <string name="title_activity_image_view_cut">ImageViewCutActivity</string>
+    <string name="title_activity_image_view_rotate">ImageViewRotateActivity</string>
+    <string name="title_activity_date_time_picker_demo">DateTimePickerDemoActivity</string>
+    <string name="title_activity_progress_bar_demo">ProgressBarDemoActivity</string>
+    <string name="title_activity_scroll_view_demo">ScrollViewDemoActivity</string>
+    <string name="title_activity_scroll_view_horizontal">ScrollViewHorizontalActivity</string>
 
 </resources>

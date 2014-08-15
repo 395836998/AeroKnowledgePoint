@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageViewRotateActivity" >
+
+    <TextView 
+        android:id="@+id/tipsSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图像宽100dp，高150dp"
+        />
+    
+    <SeekBar 
+        android:id="@+id/seekbar1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="240"
+        android:progress="120"
+        />
+    
+    <TextView 
+        android:id="@+id/tipsRotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="0度"
+        />
+    
+    <SeekBar 
+        android:id="@+id/seekbar2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="360"
+        />
+    
+    
+    <Button
+        android:id="@+id/getImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="获取网络图片"
+        />
+    
+    
+     <ImageView 
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dog"
+        android:scaleType="fitCenter"
+        />
+    
+     
+     
+</LinearLayout>
