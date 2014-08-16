@@ -31,5 +31,7 @@
     <string name="title_activity_progress_bar_demo">ProgressBarDemoActivity</string>
     <string name="title_activity_scroll_view_demo">ScrollViewDemoActivity</string>
     <string name="title_activity_scroll_view_horizontal">ScrollViewHorizontalActivity</string>
+    <string name="title_activity_gallery_demo">GalleryDemoActivity</string>
+    <string name="title_activity_spinner_demo">SpinnerDemoActivity</string>
 
 </resources>
