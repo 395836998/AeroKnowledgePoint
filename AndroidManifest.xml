@@ -162,6 +162,14 @@
         <activity
             android:name="com.zhanglian2010.ui.SpinnerDemoActivity"
             android:label="@string/title_activity_spinner_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.ImageSwitcherDemoActivity"
+            android:label="@string/title_activity_image_switcher_demo" >
+        </activity>
+        <activity
+            android:name="com.zhanglian2010.ui.GridViewDemoActivity"
+            android:label="@string/title_activity_grid_view_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
